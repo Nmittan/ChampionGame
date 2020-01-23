@@ -14,7 +14,7 @@ key_D = keyboard_check(ord("D"));
 
 //output -1, 0, or 1 to indicate desired direction of movement
 var move;
-
+//THIS IS A NEW COMMENT TEST
 if !(key_D && key_A) {
 	move = key_D - key_A;
 } else if !(key_right && key_left) {
