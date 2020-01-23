@@ -13,20 +13,12 @@ key_D = keyboard_check(ord("D"));
 //Horizontal Movement
 
 //output -1, 0, or 1 to indicate desired direction of movement
-var move;
-//THIS IS A NEW COMMENT TEST
 if !(key_D && key_A) {
 	move = key_D - key_A;
-} else if !(key_right && key_left) {
-	move = key_right - key_left;
-}
+} 
 
 //calculate direction of movement
-hsp = move * walksp;
-if (time_move > 0 && time_move <= 10) {
-	time_move++;
-	hsp = move * walksp/time_move;
-}
+hsp = move * max_move_speed;
 
 //Horizontal Collision
 if (place_meeting(x+hsp, y, oBlock)) {
@@ -63,7 +55,7 @@ if (place_meeting(x, y+1, oBlock) && key_jump && allow_jump = true) {
 
 if ((time_jump > 0 && time_jump <= max_jump) && key_jump) {
 	time_jump++;
-	vsp = vsp / 1.03;	
+	vsp = vsp / grv;	
 } else {
 	vsp += grv;
 }
