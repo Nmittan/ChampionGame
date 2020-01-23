@@ -25,7 +25,7 @@ if !(key_D && key_A) {
 hsp = move * walksp;
 if (time_move > 0 && time_move <= 10) {
 	time_move++;
-	hsp = move * walksp/time_move
+	hsp = move * walksp/time_move;
 }
 
 //Horizontal Collision
