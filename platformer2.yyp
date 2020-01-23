@@ -277,6 +277,14 @@
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "f93db0ad-ab5b-4574-ae6c-a529ce70cecf",
+            "Value": {
+                "id": "36434a1c-e75c-43c2-ac58-75975e9e136d",
+                "resourcePath": "sprites\\ethantestcommitspritelongname\\ethantestcommitspritelongname.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
