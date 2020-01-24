@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "6e70cf08-0555-4a8b-a321-bdaf15a94007",
+            "Value": {
+                "id": "4310ee63-8a7f-4b7b-ba0f-e43cacec02b9",
+                "resourcePath": "scripts\\VertColBottom\\VertColBottom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "79d53311-a61b-447f-b3df-c58fe7c58d9c",
             "Value": {
                 "id": "f3b87099-6583-4899-9c8b-49f1fb1cdab5",
@@ -426,7 +434,7 @@
             "Key": "e53643fe-4fca-46f8-b021-ab9a148c03f9",
             "Value": {
                 "id": "54113cd7-2204-4901-bce8-468923da19ca",
-                "resourcePath": "scripts\\VertCol\\VertCol.yy",
+                "resourcePath": "scripts\\VertColTop\\VertColTop.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -461,6 +469,7 @@
         "9d4d1a27-d818-47da-9e42-f9e187ca694a",
         "e53643fe-4fca-46f8-b021-ab9a148c03f9",
         "be3af0a2-47fb-4b2e-a1a3-5e3a8bf970fa",
+        "6e70cf08-0555-4a8b-a321-bdaf15a94007",
         "6b7cc371-6fcf-4ec4-9a46-dd43d34d64b9",
         "29b86ab3-eda9-4215-bf13-e79092f3d6ce"
     ],

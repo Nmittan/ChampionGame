@@ -1,10 +1,8 @@
-//HorizCol()
-
-if (place_meeting(x+hsp, y, oBlock)) {
-	while (!place_meeting(x+sign(hsp), y, oBlock)) {
-		x += sign(hsp);
-	}
-	hsp = 0;
+///HorzCol(x, y, obj)
+myObj = argument[2];
+if (place_meeting(x+hsp, y, myObj)) {
+	return true;
 } else {
-	x += hsp;
+	return false;
 }
+
