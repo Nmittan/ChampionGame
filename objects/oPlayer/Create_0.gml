@@ -10,7 +10,7 @@ max_jump = 10;
 jump_speed = -12;
 allow_jump = false;
 //Movement variables
-max_move_speed = 12;
+max_move_speed = 12;//12
 time_move = 0;
 prevMove = 0;
 move = 0;
