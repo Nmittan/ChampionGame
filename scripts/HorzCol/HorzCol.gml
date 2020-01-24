@@ -1,4 +1,5 @@
-//Horizontal Collision
+//HorizCol()
+
 if (place_meeting(x+hsp, y, oBlock)) {
 	while (!place_meeting(x+sign(hsp), y, oBlock)) {
 		x += sign(hsp);

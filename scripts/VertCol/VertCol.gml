@@ -1,4 +1,5 @@
-//Vertical Collision
+///VertCol()
+
 if (place_meeting(x, y+vsp, oBlock)) {
 	while (!place_meeting(x, y+sign(vsp), oBlock)) {
 		y += sign(vsp);

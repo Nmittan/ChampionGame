@@ -15,3 +15,4 @@ max_move_speed = 12;//12
 time_move = 0;
 prevMove = 0;
 move = 0;
+facing = "right"
