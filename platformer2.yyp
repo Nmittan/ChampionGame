@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1fe4c32e-2466-4884-b7ea-92b5f9d634bc",
+            "Value": {
+                "id": "fb5267c9-1a10-4dd1-b814-88d70d652c70",
+                "resourcePath": "scripts\\PlayerInit\\PlayerInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2613935e-4e50-4106-ae94-5432288e1720",
             "Value": {
                 "id": "5e4ad64b-f2a6-4c08-83b1-977bd85b3f98",
@@ -98,7 +106,7 @@
             "Key": "29b86ab3-eda9-4215-bf13-e79092f3d6ce",
             "Value": {
                 "id": "33f21e3c-843b-40b3-857b-ef0d52fb3d5d",
-                "resourcePath": "scripts\\VertMove\\VertMove.yy",
+                "resourcePath": "scripts\\MoveVert\\MoveVert.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -218,7 +226,7 @@
             "Key": "6b7cc371-6fcf-4ec4-9a46-dd43d34d64b9",
             "Value": {
                 "id": "9d78936f-b9ba-44e9-811f-e56f13104288",
-                "resourcePath": "scripts\\HorzMove\\HorzMove.yy",
+                "resourcePath": "scripts\\MoveHorz\\MoveHorz.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -226,7 +234,7 @@
             "Key": "6d2cf7b6-eb26-4b3f-b596-5393deae219b",
             "Value": {
                 "id": "2ebae72c-828e-4758-a8cc-7346d0409afd",
-                "resourcePath": "scripts\\InitController\\InitController.yy",
+                "resourcePath": "scripts\\ControllerInit\\ControllerInit.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -234,7 +242,7 @@
             "Key": "6e70cf08-0555-4a8b-a321-bdaf15a94007",
             "Value": {
                 "id": "4310ee63-8a7f-4b7b-ba0f-e43cacec02b9",
-                "resourcePath": "scripts\\VertColBottom\\VertColBottom.yy",
+                "resourcePath": "scripts\\ColVertBottom\\ColVertBottom.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -267,6 +275,14 @@
             "Value": {
                 "id": "28d394d2-521a-413a-a4da-ea16eb55cb47",
                 "resourcePath": "views\\8f61ee86-c015-4783-ada1-befe339e25b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "90f58551-df18-4dc7-b547-7e69d00a0919",
+            "Value": {
+                "id": "28385b34-2109-4e78-9792-678b1e402394",
+                "resourcePath": "views\\90f58551-df18-4dc7-b547-7e69d00a0919.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -306,7 +322,7 @@
             "Key": "9d4d1a27-d818-47da-9e42-f9e187ca694a",
             "Value": {
                 "id": "55141060-e364-4516-9559-f3339879b04c",
-                "resourcePath": "scripts\\DebugController\\DebugController.yy",
+                "resourcePath": "scripts\\ControllerDebug\\ControllerDebug.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -378,7 +394,7 @@
             "Key": "be3af0a2-47fb-4b2e-a1a3-5e3a8bf970fa",
             "Value": {
                 "id": "9df13a9a-8f9d-4891-9085-7ba2a11297c4",
-                "resourcePath": "scripts\\HorzCol\\HorzCol.yy",
+                "resourcePath": "scripts\\ColHorz\\ColHorz.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -434,7 +450,7 @@
             "Key": "e53643fe-4fca-46f8-b021-ab9a148c03f9",
             "Value": {
                 "id": "54113cd7-2204-4901-bce8-468923da19ca",
-                "resourcePath": "scripts\\VertColTop\\VertColTop.yy",
+                "resourcePath": "scripts\\ColVertTop\\ColVertTop.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -471,7 +487,8 @@
         "be3af0a2-47fb-4b2e-a1a3-5e3a8bf970fa",
         "6e70cf08-0555-4a8b-a321-bdaf15a94007",
         "6b7cc371-6fcf-4ec4-9a46-dd43d34d64b9",
-        "29b86ab3-eda9-4215-bf13-e79092f3d6ce"
+        "29b86ab3-eda9-4215-bf13-e79092f3d6ce",
+        "1fe4c32e-2466-4884-b7ea-92b5f9d634bc"
     ],
     "tutorial": ""
 }

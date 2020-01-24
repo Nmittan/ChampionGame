@@ -54,6 +54,7 @@ if (global.c0_connected == true) {
 	global.c0_lbumper_held = gamepad_button_check(0, gp_shoulderl);
 	
 	global.c0_lhaxis = gamepad_axis_value(0, gp_axislh);
+	/*
 	if (global.c0_lhaxis > 0.1) {
 		global.c0_lhaxis = 1;
 	} else if (global.c0_lhaxis < -0.1) {
@@ -61,8 +62,9 @@ if (global.c0_connected == true) {
 	} else {
 		global.c0_lhaxis = 0;
 	}
-	
+	*/
 	global.c0_lvaxis = gamepad_axis_value(0, gp_axislv);
+	
 	if (global.c0_lvaxis > 0.1) {
 		global.c0_lvaxis = 1;
 	} else if (global.c0_lvaxis < -0.1) {

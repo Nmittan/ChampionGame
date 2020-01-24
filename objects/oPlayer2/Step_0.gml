@@ -41,10 +41,7 @@ hsp = move * max_move_speed;
 
 //Horizontal Collision
 if (place_meeting(x+hsp, y, oBlock)) {
-	while (!place_meeting(x+sign(hsp), y, oBlock)) {
-		x += sign(hsp);
-	}
-	hsp = 0;
+	ColHorz(x, y, oBlock);
 } else {
 	x += hsp;
 }
